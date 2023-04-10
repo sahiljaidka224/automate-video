@@ -22,10 +22,6 @@ def create_audio_clip(text, id):
 
     engine.save_to_file(comment_text, 'temp_audio.mp3')
     engine.runAndWait()
-
-    # filePath = f"comment-{id}.mp3"
-    # engine.save_to_file(text, filePath)
-    # engine.runAndWait()
     return
 
 
